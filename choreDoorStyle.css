@@ -1,0 +1,96 @@
+body {
+  margin: 0px;
+  background: #56CCF2;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2F80ED, #56CCF2);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2F80ED, #56CCF2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.header {
+  background-color: white;
+  text-align: center;
+}
+.title-row {
+  margin-top: 42px;
+  margin-bottom: 21px;
+  text-align: center;
+}
+.instructions-title {
+  display: inline;
+  font-size: 18px;
+  color: white;
+  font-family: 'Work Sans', serif;
+}
+.instructions-row {
+  margin: 0 auto;
+  width: 400px;
+  padding-bottom: 20px;
+
+}
+.instructions-number {
+  padding-right: 25px;
+  font-family: 'Work Sans';
+  font-size: 36px;
+  color: white;
+}
+.instructions-text {
+  padding: 10px;
+  font-family: 'Work Sans';
+  font-size: 14px;
+  color: white;
+}
+.door-row {
+  text-align: center;
+}
+.start-now {
+  background-color: orange;
+  color: white;
+  margin: auto;
+  border-radius: 10px;
+  text-align: center;
+  width: 120px;
+  height: 43px;
+  font-family: 'Work Sans';
+  padding-top: 18px;
+  font-size: 14px;
+  cursor: pointer;
+  margin-bottom: 21px;
+
+}
+.door-frame {
+  cursor: pointer;
+  padding: 10px;
+}
+
+.streak-cl {
+  background-color: orange;
+  color: white;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 20px;
+  opacity: 0.9;
+  width: 30px;
+  height: 30px;
+  margin: 10px;
+}
+.counter {
+  text-align: center;
+  color: white;
+  margin: 20px auto;
+}
+.motivation {
+  width: 130px;
+  height: 150px;
+  margin-left: 30px;
+  display: inline-flex;
+  text-align: center;
+  background-color: white;
+  color: blue;
+}
+#motivWindow {
+  transition: transform .2s;
+}
+#motivWindow:hover {
+  transform: scale3d(1.3,1.3,1) rotate(-45deg);
+}
+
